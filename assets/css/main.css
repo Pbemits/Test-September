@@ -1,5 +1,10 @@
 #header-main {
     border-bottom: 2px solid #eeeff1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
 }
 #header-main
 .menu-main {
@@ -111,6 +116,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 64px;
 }
 .wrapper-content-texts-image {
     padding: 64px 32px;
